@@ -14,7 +14,7 @@
   "bugs": "https://github.com/weepower/wee/issues",
   "browserslist": [
     "last 2 versions",
-    "ie > 9"
+    "ie > 11"
   ],
   "config": {
     "root": "public",
