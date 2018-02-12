@@ -7,4 +7,12 @@
 
 // Assign variables that need to reference default variables below
 
-// $liMarginBottom: $blockMarginBottom;
+$baseFont: 'Lato', sans-serif;
+$headingFont: $baseFont;
+
+$blue: #0076d4;
+$hoverBlue: darken(#0076d4, 10%);
+$linkColor: $blue;
+$twitterBlue: #269FF0;
+$linkedinBlue: #0C75B2;
+$mediumGreen: #15B876;

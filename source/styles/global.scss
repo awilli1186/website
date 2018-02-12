@@ -10,6 +10,12 @@
 // Import generated media query file for screen mapping
 @import '../../build/temp/responsive';
 
-#global {
-    // Global helpers and state modifiers
+.u-hide {
+	display: block;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	text-indent: 110%;
+	width: 0;
+	white-space: nowrap;
 }
