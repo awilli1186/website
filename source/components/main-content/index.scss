@@ -13,6 +13,18 @@
     }
 }
 
+.description,
+.connect  {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: all 0.2s ease 0s, opacity 500ms, transform 500ms;
+
+    &.-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .description {
     font-size: 1.8rem;
     margin-bottom: 4rem;
@@ -50,8 +62,9 @@
 
     &__link {
         display: block;
-        height: 5rem;
-        width: 5rem;
+        height: 3.2rem;
+        transition: all .2s ease-in;
+        width: 3.2rem;
 
         path {
             transition: all .2s ease-in;
@@ -61,6 +74,21 @@
             &:hover {
                 path {
                     fill: $twitterBlue;
+                }
+            }
+        }
+        &.-github {
+            background: $white;
+            border: $black 1px solid;
+            border-radius: 50%;
+            transform: translateY(2px);
+            svg {
+                transform: translate(-2.3px, -2.3px);
+            }
+            &:hover {
+                background: $black;
+                path {
+                    fill: $white;
                 }
             }
         }
