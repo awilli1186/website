@@ -11,7 +11,6 @@
 
 	<link rel="apple-touch-icon" href="/assets/images/icons/touch.png">
 	<link rel="mask-icon" href="/assets/images/icons/pin.svg" color="#5789ff">
-	<link rel="publisher" href="https://plus.google.com/+weecss">
 
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Adam Williams">
@@ -19,28 +18,28 @@
 	<meta property="og:description" content="Personal site." itemprop="description">
 	<meta property="og:url" content="https://adamscottwilliams.com" itemprop="url">
 </head>
-<body>
+<body role="main">
 	<div class="grid">
-        <div class="sidebar">
+        <div class="sidebar" role="banner">
             <div class="inner-wrap">
-                <h1 class="title">Adam Williams</h1>
-                <p class="sub-title">
+                <h1 class="title js-sidebar-content">Adam Williams</h1>
+                <p class="sub-title js-sidebar-content">
                     Husband,<br>
                     Father,<br>
                     Web Developer,<br>
                     Handyman In Training
                 </p>
-                <a href="m&#97;ilto&#58;&#97;w%69l%6Ci1186&#64;%67&#109;ai&#108;&#46;&#99;&#111;&#37;6&#68;" class="button email-link">Say Hello!</a>
+                <a href="m&#97;ilto&#58;&#97;w%69l%6Ci1186&#64;%67&#109;ai&#108;&#46;&#99;&#111;&#37;6&#68;" class="button email-link js-sidebar-content">Say Hello!</a>
             </div>
         </div>
-        <div class="main-content">
+        <div class="main-content" role="contentinfo">
             <div class="inner-wrap">
-                <p class="description">
+                <p class="description js-main-content">
                     Adam is a Web Developer <a href="https://www.lewiscommunications.com/">@LewisIdeas</a>.<br>
                     Currently working with Javascript, <a href="https://vuejs.org/">Vue</a> and <a href="https://craftcms.com/">Craft CMS</a>.<br>
                     Learning focused on Node, PHP and <a href="https://reactjs.org/">React</a>.
                 </p>
-                <div class="connect">
+                <div class="connect js-main-content">
                     <span class="connect-title">Lets Connect</span>
                     <ul class="social">
                         <li>
@@ -83,6 +82,22 @@
         </div>
 	</div>
 
-	<script src="/assets/scripts/app.bundle.js"></script>
+    <script src="/assets/scripts/app.bundle.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "keywords": "Web Developer,javascript,node,craft,php,tennessee,personal",
+            "url": "https://adamscottwilliams.com",
+            "datePublished": "2018-02-09",
+            "dateCreated": "2018-02-08",
+            "name": "Adam Williams - Web Developer",
+            "author": {
+                "@type": "Person",
+                "name": "Adam Williams"
+            },
+            "description": "Personal Website for Adam Williams"
+        }
+        </script>
 </body>
 </html>
