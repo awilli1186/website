@@ -453,7 +453,7 @@ function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});va
   \*******************************/
 /*! dynamic exports provided */
 /*! all exports used */
-function(t,e,n){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}var o=n(/*! wee-routes */34),i=r(o);n(/*! ./bootstrap */162);var u=n(/*! ../components/sidebar */168),a=r(u);console.log("here"),i.default.map([{path:"/",handler:a.default}]).run()},/*!***************************************************************!*\
+function(t,e,n){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}var o=n(/*! wee-routes */34),i=r(o);n(/*! ./bootstrap */162);var u=n(/*! ../components/sidebar */168),a=r(u);i.default.map([{path:"/",handler:a.default}]).run()},/*!***************************************************************!*\
   !*** ./node_modules/babel-runtime/core-js/symbol/iterator.js ***!
   \***************************************************************/
 /*! dynamic exports provided */
