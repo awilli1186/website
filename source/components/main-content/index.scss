@@ -14,7 +14,7 @@
 }
 
 .description,
-.connect  {
+.connect {
     opacity: 0;
     transform: translateY(25px);
     transition: all 0.2s ease 0s, opacity 500ms, transform 500ms;
@@ -22,6 +22,11 @@
     &.-visible {
         opacity: 1;
         transform: translateY(0);
+    }
+
+    &.-error {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
@@ -77,16 +82,20 @@
                 }
             }
         }
+
         &.-github {
             background: $white;
             border: $black 1px solid;
             border-radius: 50%;
             transform: translateY(2px);
+
             svg {
                 transform: translate(-2.3px, -2.3px);
             }
+
             &:hover {
                 background: $black;
+
                 path {
                     fill: $white;
                 }
