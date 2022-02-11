@@ -31,7 +31,7 @@
     "analyze": "npm run build -- --env.analyze"
   },
   "devDependencies": {
-    "ajv": "^5.2.2",
+    "ajv": "^6.12.3",
     "async": "^2.1.4",
     "autoprefixer": "^7.1.4",
     "babel-core": "^6.26.0",
